@@ -1,16 +1,16 @@
 # goit-js-hw-06
 Завдання 1
 HTML містить список категорій ul#categories.
-
-<ul id="categories">
-  <li class="item">
-    <h2>Animals</h2>
+<code>
+&lt;ul id="categories">
+  &lt;sli class="item">
+    &lt;h2>Animals</h2>
+    &lt;ul>
+      &lt;li>Cat</li>
+      &lt;li>Hamster</li>
+      &lt;li>Horse</li>
+      &lt;li>Parrot</li>
     <ul>
-      <li>Cat</li>
-      <li>Hamster</li>
-      <li>Horse</li>
-      <li>Parrot</li>
-    </ul>
   </li>
   <li class="item">
     <h2>Products</h2>
@@ -31,7 +31,7 @@ HTML містить список категорій ul#categories.
     </ul>
   </li>
 </ul>
-
+</code>
 Напиши скрипт, який:
 
 Порахує і виведе в консоль кількість категорій в ul#categories, тобто елементів li.item.
