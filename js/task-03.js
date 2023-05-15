@@ -12,3 +12,22 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+// const arr = images.reduce(
+//   (a, b) => a + `<li><img src='${b.url}' alt = '${b.alt}'></li>`,
+//   ''
+// );
+document.querySelector('ul.gallery').insertAdjacentHTML(
+  'afterbegin',
+  images.reduce(
+    (a, b) => a + `<li><img src='${b.url}' alt = '${b.alt}'></li>`,
+    ''
+  )
+);
+
+// document
+//   .querySelector('head')
+//   .insertAdjacentHTML(
+//     'beforeend',
+//     '<style type="text/css" .gallery { display: grid; }'
+//   );
